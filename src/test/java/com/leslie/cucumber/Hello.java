@@ -7,5 +7,7 @@ public class Hello {
 	public Hello(String greeting) {
 		this.greeting = greeting;
 	}
-	
+	public String sayHi() {
+		return greeting + " World";
+	}
 }
